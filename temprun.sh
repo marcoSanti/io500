@@ -1,3 +1,9 @@
+#!/bin/bash
+#SBATCH -p broadwell
+#SBATCH -N 1
+#SBATCH --ntasks-per-node=1
+#SBATCH -e ./err.log
+#SBATCH -o ./log.log
 
 # INSTRUCTIONS:
 #
